@@ -1,1 +1,21 @@
 /* add your styles here */
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    /* justify-content: center; */
+    justify-items: center;
+    row-gap: 30px;
+    padding: 2vw;
+}
+
+h1{
+    text-align: center;
+}
+
+.image{
+    width: 46vw;
+}
+
